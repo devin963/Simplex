@@ -225,6 +225,41 @@
         color: #1f1f1f;
       }
     }
+/* Brand left side */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #1f1f1f;
+  margin-right: auto; /* Pushes nav links to right */
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.brand-name {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  color: #1f1f1f;
+  letter-spacing: 0.5px;
+}
+
+/* For better mobile layout */
+@media (max-width: 768px) {
+  .brand {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+}
 
   </style>
 </head>
@@ -232,6 +267,10 @@
 
   <!-- 🔗 Navigation Bar -->
   <nav>
+          <div class="brand">
+    <img src="icon_simplex.png" alt="Logo" class="logo">
+    <span class="brand-name">Simplex</span>
+  </div>
     <div class="menu-toggle" id="menu-toggle">☰</div>
     <div class="navyink" id="nav-menu">
       <a href="https://devin963.github.io/Simplex/">Home</a>
