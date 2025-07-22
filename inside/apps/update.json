@@ -1,4 +1,6 @@
 {
-  "version": "2.0",
-  "url": "https://devin963.github.io/Simplex/inside/apps"
+  "versionCode": 16,
+  "versionName": "1.6",
+  "features": "🔥 New dark mode UI\n🚀 Faster browsing\n🛡️ Better privacy",
+  "updatePage": "https://devin963.github.io/Simplex/"
 }
