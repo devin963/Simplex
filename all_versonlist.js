@@ -1,15 +1,7 @@
  const versions = [
+     
       {
-        version: "v4.3.1",
-        date: "2025-07-27",
-        type: "Stable",
-        size: "12.4 MB",
-        notes: "Major UI update, Download Manager added, bug fixes.",
-        download: "#",
-        changelog: "#"
-      },
-      {
-        version: "v4.2.5-beta",
+        version: "v1.1-beta",
         date: "2025-07-10",
         type: "Beta",
         size: "11.9 MB",
@@ -18,11 +10,11 @@
         changelog: "#"
       },
       {
-        version: "v4.0",
+        version: "v1.0",
         date: "2025-06-20",
         type: "Stable",
-        size: "10.2 MB",
-        notes: "Initial release with dark mode and voice input.",
+        size: "11.023 MB",
+        notes: "Initial release with dark mode and voice input. And some basic functionality. ",
         download: "#",
         changelog: "#"
       }
