@@ -15,7 +15,7 @@
         type: "Stable",
         size: "11.023 MB",
         notes: "Initial release with dark mode and voice input. And some basic functionality. ",
-        download: "#",
+        download: "https://devin963.github.io/Simplex/inside/apps/Simplex.apk",
         changelog: "#"
       }
     ];
